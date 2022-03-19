@@ -1,0 +1,29 @@
+{
+  "name": "share-typescript-library",
+  "version": "1.0.1",
+  "description": "share your typescript code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "test-c": "jest --coverage",
+    "publish": "npm publish --registry http://localhost:4873"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "parcel-plugin-nuke-dist": "^1.0.1",
+    "ts-jest": "^27.1.3",
+    "typescript": "^4.6.2"
+  },
+  "dependencies": {
+  },
+  "files": [
+    "dist/**/*",
+    "package.json"
+  ]
+}
